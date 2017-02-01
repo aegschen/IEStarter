@@ -6,7 +6,7 @@ Function Wait_IE ($ieX) { while($ieX.Busy -eq $true){Start-Sleep -Milliseconds 5
 	# Monitor 1 IE-Frame 1
 	if (!$site_addrA)
 	{
-	$site_addrA = "http://www.ge1-nb.ch/einsatzpl/show_list.php?filter1=Pikettdienst&filter2=&button2=Filter+setzen&filter4=&filter5=&feld1=2016-09-20"
+	$site_addrA = "http://www.heise.de"
 	}
 	
 	# Monitor 1 IE-Frame 2
@@ -18,7 +18,7 @@ Function Wait_IE ($ieX) { while($ieX.Busy -eq $true){Start-Sleep -Milliseconds 5
 	# Monitor 2 IE-Frame 1
 	if (!$site_addrC)
 	{
-	$site_addrC = "http://www.ge1-nb.ch/einsatzpl/show_list.php?filter1=Reinigung&filter2=&button2=Filter+setzen&filter4=&filter5=&feld1=2016-09-20"
+	$site_addrC = "http://www.flanc.ch"
 	}
 	
 	# Monitor 2 IE-Frame 2
@@ -30,7 +30,7 @@ Function Wait_IE ($ieX) { while($ieX.Busy -eq $true){Start-Sleep -Milliseconds 5
 	# Monitor 3 IE-Frame 1
 	if (!$site_addrE)
 	{
-	$site_addrE = "http://www.ge1-nb.ch/einsatzpl/show_list.php?filter1=Gr%FCnpflege&filter2=&button2=Filter+setzen&filter4=&filter5=&feld1=2016-09-20"
+	$site_addrE = "http://www.inside-it.ch/"
 	}
 	
 	# Monitor 3 IE-Frame 2
